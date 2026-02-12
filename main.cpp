@@ -1,10 +1,6 @@
 #include "mainwindow.h"
 
 #include <QApplication>
-#include <QFileSystemModel>
-#include <QHBoxLayout>
-#include <QListView>
-#include <QTreeView>
 
 int main(int argc, char *argv[])
 {
@@ -14,4 +10,5 @@ int main(int argc, char *argv[])
     w.show();
     return a.exec();
 }
+
 
